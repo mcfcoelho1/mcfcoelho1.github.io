@@ -1,0 +1,15 @@
+---
+title: "Maria Clara Figueiredo Coelho | Eng Civil (UFSJ)"
+image: "foto.jpg"
+links:
+  - label: GitHub
+    url: "https://github.com/mcfcoelho1"
+  - label: Email
+    url: "mailto:mcfcoelho1@gmail.com"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/maria-clara-figueiredo-coelho/"
+output:
+  postcards::jolla
+---
+ 
+Descrição sobre o aluno(a)!
