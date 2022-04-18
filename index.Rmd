@@ -53,9 +53,9 @@ Este projeto está disponível em <https://github.com/bendeivide/discestcomp.git
 - Fazer o cadastro no GitHub:
   - Crie um cadastro em: <https://github.com/signup?source=login>
   - Guarde o e-mail utilizado e o seu nome de usuário. Por exemplo, em meu github:
-    - Nome: *bendeivide*
+    - Nome: *mcfcoelho1*
       - O seu pode ser encontrado no canto superior direito de sua imagem. Ao clicar na seta ao lado, aparecerá um menu, e a primeira informação é: "*Signed in as nome_usuario*". Esse é o seu nome de usuário ("*nome_usuario*")
-    - E-mail: *ben.deivide@gmail.com*
+    - E-mail: *mcfcoelho1@gmail.com*
       - Ainda no canto superior direito de sua imagem, no github, ao clicar na seta ao lado, tem uma opção chamada "*Settings*", clique nessa opção, e aparecerá a página de configurações. Na lateral direita, procure por: *Access* > *Emails* > *Primary email address*. Pronto, este é o seu e-mail!
 - Instalar Pacotes (No R): 
 
