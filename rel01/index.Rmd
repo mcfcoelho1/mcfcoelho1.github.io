@@ -1,6 +1,6 @@
 ---
 title: "Relatório 01"
-author: "Ben Dêivide"
+author: "Maria Clara Figueiredo Coelho"
 date: "12/04/2022"
 header-includes:
   - \usepackage{titling}
