@@ -79,8 +79,6 @@ Diante do objetivo do relatório, apresentaremos nas próximas subseções os po
 ## Objetos
 - 
 
-## Pacotes
-- Os pacotes em R são diretórios que armazenam códigos necessários para determinadas funções, dados, documentações de ajuda, entre outros. 
   
   
 
