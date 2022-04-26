@@ -77,8 +77,3 @@ Diante do objetivo do relatório, apresentaremos nas próximas subseções os po
 - Podemos classificar também as funções como **expressões**, que são qualquer comando executada pelo R, mas ao qual o resultado não é atribuído a nenhum objeto, ou seja, a informação não é armazenada na memória ativa do computador. Ou podemos classificar como **atribuições** quando atribuímos um nome ao objeto, utilizando "<-", dessa forma a informação fica armazenada na memória ativa do computador.
 
 ## Objetos
-- 
-
-  
-  
-
