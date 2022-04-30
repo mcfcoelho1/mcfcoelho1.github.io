@@ -88,7 +88,7 @@ Para isso basta acessar a aba **Packages**, que está no 4° quadrante, e busvar
 Abrirá uma aba e deve ser selecionada a opção *Version control*, em seguida *Git*, que levará à aba onde deverá ser colado o HTTPS do repositório:
 
 <center>
-![HTTPS para RStudio](git.png){width="70%"}
+![HTTPS para RStudio](git.png){width="50%"}
 <center>
 
 ## Utilizando o RMarkdown
