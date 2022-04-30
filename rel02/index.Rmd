@@ -63,11 +63,12 @@ Para isso basta acessar a aba **Packages**, que está no 4° quadrante, e busvar
 
 - Voltando ao Github, será necessário criar um repositório, conforme demonstração abaixo:
 
+
 <center>
 ![Criando novo repositório](new_repository.png)
 <center>
 
-- Em seguida, é necessário nomear o repositório, deixá-lo publico é selecionar a opção *Add a README file*:
+Em seguida, é necessário nomear o repositório, deixá-lo publico é selecionar a opção *Add a README file*:
 
 <center>
 ![Criando novo repositório](creating.png){width="70%"}
