@@ -1,0 +1,100 @@
+---
+title: "Relatório 03 - Distribuições de Probabilidade"
+author: "Maria Clara Figueiredo Coelho"
+date: '2022-05-04'
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+## Nesta apresentação
+
+- Introdução
+- Definições Básicas
+- Distribuições Discretas de Probabilidade
+  - Distribuição Binomial
+  - Distribuição Poisson
+- Distribuições Contínuas de Probabilidade
+  - Distribuição Normal
+
+## Introdução
+
+Uma distribuição de probabilidade é um modelo matematico que relaciona um valor da variável em estudo com a sua probabilidade de ocorrência em um conjunto. Existem dois tipos de distribuição: a distribuição discreta e a distribuição contínua, que serão apresentadas a seguir.
+
+## Distribuições Discretas de Probabilidade
+
+Uma distribuição é dita discreta quando a variável aleatória em estudo é finita e contável. Definimos geralmente como dois possíveis resultados, o sucesso, *x=1* e o fracasso, *x=0*. Usualmente, o valor de interesse será a variável definida como *x=1*, por isso damos o nome de sucesso. No relatório apresentaremos as principais *Distribuições Discretas*, são elas: *Distribuição Binomial* e *Distribuição de Poisson*.
+
+## Distribuição Binomial
+
+Para o desenvolvimento de uma distribuição binomial é necessário que seu espaço amostral seja finito e definido para que assim sejam estabelecidos os dois parâmetros de saída possíveis, exclusivamente. Retornando à definição de sucesso e fracasso, para a distribuição binomial teremos:
+
+![](binomial.png)
+
+## Distribuição Binomial em R
+
+```{r echo=TRUE}
+x <- 1:10
+fx <- dbinom(x, 10, 0.5)
+```
+
+```{r echo=FALSE}
+plot(x, fx, type='h')
+```
+
+## Distribuição Binomial em R
+
+```{r echo=TRUE}
+x <- 1:10
+gx <- pbinom(x, 10, 0.5)
+```
+
+```{r echo=FALSE}
+plot(x, gx, type='s')
+```
+
+## Distribuição de Poisson
+
+É a distribuição utilizada para definir eventos aleatórios ocorridos em um espaço de tempo definido:
+
+![](poisson.png)
+
+## Distribuição de Poisson em R
+
+```{r include=FALSE}
+lambda <- 1
+```
+
+
+```{r}
+- dpois(x, lambda)
+- ppois(x, lambda)
+- qpois(x, lambda)
+- rpois(x, lambda)
+```
+
+## Distribuições Contínuas de Probabilidade
+
+Para uma distribuição contínua, temos um intervalo expresso de forma contínua, ou seja, a variável será expressa em uma escala infinita, como por exemplo: *0 < x < 1*, portanto, utilizando esse método, obteremos a probabilidade de que a variável esteja no intervalo definido.
+```{r}
+
+```
+
+## Distribuição Normal
+
+É uma função densidade de probabilidade. É umarobabilidade absolutamente contínua parametrizada pela sua esperança matemática, com média e desvio padrão definidos.
+
+![](normal.png)
+## Distribuição Normal em R
+
+```{r}
+- dnorm(x)
+- pnorm(x)
+- qnorm(x)
+- rnorm(x)
+```
+
