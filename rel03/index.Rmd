@@ -11,15 +11,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-## Nesta apresentação
-
-- Introdução
-- Definições Básicas
-- Distribuições Discretas de Probabilidade
-  - Distribuição Binomial
-  - Distribuição Poisson
-- Distribuições Contínuas de Probabilidade
-  - Distribuição Normal
 
 ## Introdução
 
