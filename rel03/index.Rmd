@@ -56,12 +56,8 @@ plot(x, gx, type='s')
 
 ## Distribuição de Poisson em R
 
-```{r include=FALSE}
-lambda <- 1
+
 ```
-
-
-```{r}
 - dpois(x, lambda)
 - ppois(x, lambda)
 - qpois(x, lambda)
