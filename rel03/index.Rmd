@@ -76,9 +76,11 @@ Para uma distribuição contínua, temos um intervalo expresso de forma contínu
 É uma função densidade de probabilidade. É umarobabilidade absolutamente contínua parametrizada pela sua esperança matemática, com média e desvio padrão definidos.
 
 ![](normal.png)
+
+
 ## Distribuição Normal em R
 
-```{r}
+```
 - dnorm(x)
 - pnorm(x)
 - qnorm(x)
