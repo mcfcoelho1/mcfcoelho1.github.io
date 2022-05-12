@@ -40,8 +40,10 @@ Será feita uma breve explicação sobre o tema e em seguida sua aplicação em 
 
 Utilizada para função densidade de probabilidade, amplamente difundida por associar de forma satisfatórioa as curvas de frequências de medidas físicas.
 Essa função possui 2 parâmetros, que descrevem seu grau de dispersão: 
+
   - Média (μ)
   - Variância (σ^2)
+  
 A função densidade de probabilidade é dada por:
    $$fx(x)=\frac{1}{\sqrt{2πσ^2}}e^\frac{-1}{2}(\frac{x-μ}{σ})^2$$
    
